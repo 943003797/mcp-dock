@@ -13,7 +13,9 @@ git submodule update --init --recursive
 git submodule update --remote --recursive
 ```
 
-## chrome-devtools-mcp 启动方法
+## chrome-devtools-mcp
+
+### 启动
 
 **macOS:**
 
@@ -35,7 +37,7 @@ git submodule update --remote --recursive
 运行 chrome-devtools-mcp-only-local.bat. -端口9222, 仅本地
 ```
 
-### 在MCP客户端中配置
+### 配置
 
 要在支持MCP的AI助手（如Claude、Gemini、Cursor或Copilot）中使用，添加以下配置：
 
