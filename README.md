@@ -48,8 +48,13 @@ git submodule update --remote --recursive
   "mcpServers": {
     "chrome-devtools": {
       "command": "npx",
-      "args": ["-y", "chrome-devtools-mcp@latest"]
+      "args": [
+        "chrome-devtools-mcp@latest",
+        "--browser-url=http://127.0.0.1:9222",
+        "-y"
+      ]
     }
   }
 }
+
 ```
