@@ -13,10 +13,7 @@ git submodule update --init --recursive
 git submodule update --remote --recursive
 ```
 
-
 ---
-
-
 
 ## chrome-devtools-mcp
 
@@ -37,7 +34,7 @@ git submodule update --remote --recursive
 **Windows:**
 
 ```bash
-运行 chrome-devtools-mcp.bat. -端口9333, 远程可用
+运行 chrome-devtools-mcp.bat. -端口9223, 远程可用
 
 运行 chrome-devtools-mcp-only-local.bat. -端口9222, 仅本地
 ```
